@@ -1,0 +1,40 @@
+<odoo>
+
+    <record id="collection_point_form" model="ir.ui.view">
+        <field name="name">collection.point.form</field>
+        <field name="model">collection.point</field>
+        <field name="arch" type="xml">
+            <form string="Collection Point">
+                <sheet>
+                    <field name="google_maps_url" widget="google_maps"/>
+                    <group>
+                        <field name="name"/>
+                        <field name="street_name"/>
+                        <field name="house_number"/>
+                        <field name="street_district"/>
+                        <field name="street_postal_code"/>
+                        <field name="waste_type"/>
+                        <field name="telephone"/>
+                        <field name="email"/>
+                        <field name="daily_limit"/>
+                        <field name="opening_hours"/>
+                        <field name="google_maps_url" widget="google_maps"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="collection_point_tree" model="ir.ui.view">
+        <field name="name">collection.point.tree</field>
+        <field name="model">collection.point</field>
+        <field name="arch" type="xml">
+            <tree string="Collection Points">
+                <field name="name"/>
+                <field name="waste_type"/>
+            </tree>
+        </field>
+    </record>
+
+    <act_window id="action_waste_type" name="Waste Types" res_model="waste.type" view_mode="tree,form"/>
+</odoo>

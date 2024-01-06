@@ -1,0 +1,7 @@
+<odoo>
+
+    <menuitem id="menu_garbage_collection_points" name="Collection Points"/>
+
+    <menuitem id="menu_garbage_collection_points_collection_point" name="Collection Points" parent="menu_garbage_collection_points" action="action_collection_point"/>
+    <menuitem id="menu_garbage_collection_points_waste_type" name="Waste Types" parent="menu_garbage_collection_points" action="action_waste_type"/>
+</odoo>

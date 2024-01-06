@@ -1,0 +1,20 @@
+{
+    "name": "Collection Points",
+    "version": "0.0",
+    "category": "Operations/Environment",
+    "license": "AGPL-3",
+    "summary": "Management features for collection points",
+    "author": "Henrique Espadas",
+    "depends": [],
+    "data": [
+        "security/ir.model.access.csv",
+        "data/google_maps_api_key.xml",
+        "views/collection_point_views.xml",
+        "views/waste_type_views.xml",
+        "views/assets.xml",
+        "views/menus.xml",
+    ],
+    "installable": True,
+    "application": True,
+    "auto_install": False,
+}
