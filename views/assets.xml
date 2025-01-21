@@ -1,7 +1,0 @@
-<odoo>
-    <template id="assets_backend" inherit_id="web.assets_backend">
-        <xpath expr="." position="inside">
-            <script type="text/javascript" src="/garbage_collection_points/static/src/js/google_maps_widget.js"/>
-        </xpath>
-    </template>
-</odoo>
