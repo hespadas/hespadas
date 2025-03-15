@@ -1,4 +1,4 @@
-Mys site in development(django + react): https://rabbitquiz.com
+My site in development(django + react): https://www.rabbitquiz.com
 
 I don't care where I go
 
